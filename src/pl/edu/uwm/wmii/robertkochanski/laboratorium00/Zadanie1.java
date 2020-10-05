@@ -1,4 +1,4 @@
-package pl.edu.uwm.wmii.kotewa.laboratorium00;
+package pl.edu.uwm.wmii.robertkochanski.laboratorium00;
 
 public class Zadanie1 {
 
