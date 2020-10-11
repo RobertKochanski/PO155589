@@ -1,4 +1,4 @@
-package pl.edu.uwm.wmii.robertkochanski.laboratorium00;
+package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia1;
 
 public class Zadanie1 {
 

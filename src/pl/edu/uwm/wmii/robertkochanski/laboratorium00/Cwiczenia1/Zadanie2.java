@@ -1,11 +1,11 @@
-package pl.edu.uwm.wmii.robertkochanski.laboratorium00;
+package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia1;
 
-public class Zadanie3 {
+public class Zadanie2 {
     public static void main(String[] args) {
 
-        int suma=1;
+        int suma=0;
         for (int i=1;i<=10;i++){
-            suma*=i;
+            suma+=i;
         }
         System.out.println(suma);
     }
