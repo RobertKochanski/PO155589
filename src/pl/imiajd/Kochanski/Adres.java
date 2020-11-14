@@ -28,10 +28,10 @@ public class Adres {
     }
 
     public boolean przed(Adres adres){
-        String[] kod_a = kod_pocztowy.split("-");
-        String[] kod_b = adres.kod_pocztowy.split("-");
-        if(Integer.parseInt(kod_a[0]) < Integer.parseInt(kod_b[0])) return true;
-        if(Integer.parseInt(kod_b[0]) < Integer.parseInt(kod_a[0])) return false;
-        return Integer.parseInt(kod_a[1]) < Integer.parseInt(kod_b[1]);
+        String[] x = kod_pocztowy.split("-");
+        String[] y = adres.kod_pocztowy.split("-");
+        if(Integer.parseInt(x[0]) < Integer.parseInt(y[0])) return true;
+        if(Integer.parseInt(y[0]) < Integer.parseInt(x[0])) return false;
+        return Integer.parseInt(x[1]) < Integer.parseInt(y[1]);
     }
 }
