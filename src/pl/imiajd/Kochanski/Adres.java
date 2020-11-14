@@ -31,7 +31,7 @@ public class Adres {
         String[] kod_a = kod_pocztowy.split("-");
         String[] kod_b = adres.kod_pocztowy.split("-");
         if(Integer.parseInt(kod_a[0]) < Integer.parseInt(kod_b[0])) return true;
-        if(Integer.parseInt(kod_a[0]) > Integer.parseInt(kod_b[0])) return false;
+        if(Integer.parseInt(kod_b[0]) < Integer.parseInt(kod_a[0])) return false;
         return Integer.parseInt(kod_a[1]) < Integer.parseInt(kod_b[1]);
     }
 }
