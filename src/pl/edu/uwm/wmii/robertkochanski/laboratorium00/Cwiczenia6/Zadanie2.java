@@ -9,24 +9,24 @@ public class Zadanie2 {
         for(int i=0; i<100; i++){
             s1.Set[i] = i < 8;
         }
-        IntegerSet.writeSet(s1.Set);
+        IntegerSet.writeSet(s1);
         for(int i=0; i<100; i++){
             s2.Set[i] = i < 11;
         }
-        IntegerSet.writeSet(s2.Set);
+        IntegerSet.writeSet(s2);
         System.out.print("\n");
 
         System.out.println("Punkt 1: union");
-        IntegerSet.writeSet(IntegerSet.union(s1.Set, s2.Set));
+        IntegerSet.writeSet(IntegerSet.union(s1, s2));
         System.out.print("\n");
 
         System.out.println("Punkt 2: intersection");
-        IntegerSet.writeSet(IntegerSet.intersection(s1.Set, s2.Set));
+        IntegerSet.writeSet(IntegerSet.intersection(s1, s2));
         System.out.print("\n");
 
         System.out.println("Punkt 3: insertElement");
         s1.insertElement(23);
-        IntegerSet.writeSet(s1.Set);
+        IntegerSet.writeSet(s1);
         System.out.print("\n");
 
         System.out.println("Punkt 4: deleteElement");
@@ -34,7 +34,7 @@ public class Zadanie2 {
         s2.deleteElement(9);          //sprawdzenie dla equals
         s2.deleteElement(10);         //sprawdzenie dla equals
         s2.deleteElement(11);         //sprawdzenie dla equals
-        IntegerSet.writeSet(s1.Set);
+        IntegerSet.writeSet(s1);
         System.out.print("\n");
 
         System.out.println("Punkt 5: toString");

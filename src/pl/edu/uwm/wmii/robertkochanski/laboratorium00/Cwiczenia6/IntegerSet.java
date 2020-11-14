@@ -5,26 +5,26 @@ import java.util.Arrays;
 class IntegerSet {
     boolean[] Set = new boolean[100];
 
-    public static void writeSet(boolean[] set) {
+    public static void writeSet(IntegerSet set) {
         for (int i = 0; i < 100; i++) {
-            if (set[i])
+            if (set.Set[i])
                 System.out.print(i+1 + ", ");
         }
         System.out.println();
     }
 
-    public static boolean[] union(boolean[] s1, boolean[] s2){
-        boolean[] us = new boolean[100];
+    public static IntegerSet union(IntegerSet s1, IntegerSet s2){
+        IntegerSet us = new IntegerSet();
         for(int i=0; i<100; i++){
-            us[i] = s1[i] || s2[i];
+            us.Set[i] = s1.Set[i] || s2.Set[i];
         }
         return us;
     }
 
-    public static boolean[] intersection(boolean[] s1, boolean[] s2){
-        boolean[] us = new boolean[100];
+    public static IntegerSet intersection(IntegerSet s1, IntegerSet s2){
+        IntegerSet us = new IntegerSet();
         for(int i=0; i<100; i++){
-            us[i] = s1[i] && s2[i];
+            us.Set[i] = s1.Set[i] && s2.Set[i];
         }
         return us;
     }
