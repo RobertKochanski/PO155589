@@ -1,5 +1,7 @@
 package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia6;
 
+import java.util.Arrays;
+
 class IntegerSet {
     boolean[] Set = new boolean[100];
 
@@ -43,13 +45,11 @@ class IntegerSet {
         return sb.toString();
     }
 
-    public boolean equals(Object object){
-        if(!(object instanceof IntegerSet)) return false;
-        IntegerSet x = (IntegerSet) object;
-        if(Set.length != x.Set.length) return false;
-        for(int i = 0; i < Set.length; i++){
-            if(Set[i] != x.Set[i]) return false;
-        }
-        return true;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        IntegerSet that = (IntegerSet) o;
+        return Arrays.equals(Set, that.Set);
     }
+
 }
