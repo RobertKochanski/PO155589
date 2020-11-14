@@ -11,7 +11,7 @@ public class Zadanie2i3 {
     System.out.print("\n");
     a2.pokaz();
     System.out.print("\n");
-    System.out.println("a1 < a2: " + a1.przed(a2));
-    System.out.println("a2 < a1: " + a2.przed(a1));
+    System.out.println("a1 przed a2: " + a1.przed(a2));
+    System.out.println("a2 przed a1: " + a2.przed(a1));
     }
 }
