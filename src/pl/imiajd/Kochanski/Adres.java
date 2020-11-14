@@ -1,7 +1,6 @@
 package pl.imiajd.Kochanski;
 
 public class Adres {
-
     private String ulica;
     private String miasto;
     private String kod_pocztowy;

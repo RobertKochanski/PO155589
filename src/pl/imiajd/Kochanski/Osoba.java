@@ -1,6 +1,7 @@
 package pl.imiajd.Kochanski;
 
 public class Osoba {
+
     private String nazwisko;
     private int rokUrodzenia;
 

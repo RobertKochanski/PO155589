@@ -1,6 +1,7 @@
 package pl.imiajd.Kochanski;
 
 public class Student extends Osoba{
+
     private String kierunek;
 
     public Student(String nazwisko, int rokUrodzenia, String kierunek) {

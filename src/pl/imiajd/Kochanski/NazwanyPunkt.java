@@ -1,6 +1,7 @@
 package pl.imiajd.Kochanski;
 
 public class NazwanyPunkt extends Punkt {
+
     public NazwanyPunkt(int x, int y, String name) {
         super(x, y);
         this.name = name;

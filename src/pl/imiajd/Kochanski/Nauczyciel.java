@@ -11,7 +11,6 @@ public class Nauczyciel extends Osoba{
     public double getPensja(){
         return pensja;
     }
-
     public String toString(){
         return super.getNazwisko() + " " + super.getRokUrodzenia() + " " + pensja;
     }
