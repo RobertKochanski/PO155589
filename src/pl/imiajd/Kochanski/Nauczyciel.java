@@ -12,6 +12,6 @@ public class Nauczyciel extends Osoba{
         return pensja;
     }
     public String toString(){
-        return super.getNazwisko() + " " + super.getRokUrodzenia() + " " + pensja;
+        return getNazwisko() + " " + getRokUrodzenia() + " " + pensja;
     }
 }

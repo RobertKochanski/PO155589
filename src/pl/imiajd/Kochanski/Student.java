@@ -14,6 +14,6 @@ public class Student extends Osoba{
     }
 
     public String toString(){
-        return super.getNazwisko() + " " + super.getRokUrodzenia() + " " + kierunek;
+        return getNazwisko() + " " + getRokUrodzenia() + " " + kierunek;
     }
 }
