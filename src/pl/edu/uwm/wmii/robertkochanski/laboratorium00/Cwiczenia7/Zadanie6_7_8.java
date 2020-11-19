@@ -1,6 +1,6 @@
 package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia7;
 
-import pl.imiajd.Kochanski.BetterRectangle;
+import pl.imiajd.Kochanski.Cwiczenia7.BetterRectangle;
 
 public class Zadanie6_7_8 {
 

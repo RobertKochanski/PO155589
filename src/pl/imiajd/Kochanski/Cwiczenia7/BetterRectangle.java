@@ -1,4 +1,4 @@
-package pl.imiajd.Kochanski;
+package pl.imiajd.Kochanski.Cwiczenia7;
 
 import java.awt.Rectangle;
 

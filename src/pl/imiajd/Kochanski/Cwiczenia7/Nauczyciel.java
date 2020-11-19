@@ -1,4 +1,4 @@
-package pl.imiajd.Kochanski;
+package pl.imiajd.Kochanski.Cwiczenia7;
 
 public class Nauczyciel extends Osoba{
     private double pensja;

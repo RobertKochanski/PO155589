@@ -1,8 +1,8 @@
 package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia7;
 
-import pl.imiajd.Kochanski.Nauczyciel;
-import pl.imiajd.Kochanski.Osoba;
-import pl.imiajd.Kochanski.Student;
+import pl.imiajd.Kochanski.Cwiczenia7.Nauczyciel;
+import pl.imiajd.Kochanski.Cwiczenia7.Osoba;
+import pl.imiajd.Kochanski.Cwiczenia7.Student;
 
 public class Zadanie4i5 {
 

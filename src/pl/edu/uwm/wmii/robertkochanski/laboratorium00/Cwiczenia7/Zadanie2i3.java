@@ -1,6 +1,6 @@
 package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia7;
 
-import pl.imiajd.Kochanski.Adres;
+import pl.imiajd.Kochanski.Cwiczenia7.Adres;
 
 public class Zadanie2i3 {
     public static void main(String[] args){
