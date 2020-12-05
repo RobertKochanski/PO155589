@@ -2,8 +2,8 @@ package pl.edu.uwm.wmii.robertkochanski.laboratorium00.Cwiczenia11;
 
 
 public class Zadanie8 {
-    public static <E> void print(E[] e){
-        for(E i : e){
+    public static <E> void print(E[] x){
+        for(E i : x){
             System.out.print(i + ", ");
         }
     }

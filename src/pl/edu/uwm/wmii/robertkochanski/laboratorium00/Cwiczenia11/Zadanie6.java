@@ -9,10 +9,9 @@ public class Zadanie6 {
             stos.push(x%10);
             x /= 10;
         }
-        int temp = stos.size();
-        while(temp > 0){
-            System.out.print(stos.get(temp-1) + " ");
-            temp--;
+        while(stos.size() > 0){
+            System.out.print(stos.get(stos.size()-1) + " ");
+            stos.pop();
         }
     }
 
