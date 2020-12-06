@@ -28,13 +28,13 @@ public class Zadanie5 {
             slowo.append(c);
         }
         for(int i = 0; i < stosy.size(); i++){
-            boolean first = true;
+            boolean CzyPierwszy = true;
             while(!stosy.get(i).empty()){
-                if(first){
-                    first = false;
-                    String firstslowo = stosy.get(i).pop();
-                    firstslowo = firstslowo.substring(0, 1).toUpperCase() + firstslowo.substring(1).toLowerCase();
-                    System.out.print(firstslowo);
+                if(CzyPierwszy){
+                    CzyPierwszy = false;
+                    String PierwszeSlowo = stosy.get(i).pop();
+                    PierwszeSlowo = PierwszeSlowo.substring(0, 1).toUpperCase() + PierwszeSlowo.substring(1).toLowerCase();
+                    System.out.print(PierwszeSlowo);
                 }
                 else{
                     System.out.print(stosy.get(i).pop().toLowerCase());
