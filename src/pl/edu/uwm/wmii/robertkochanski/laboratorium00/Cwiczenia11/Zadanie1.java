@@ -5,8 +5,8 @@ import java.util.LinkedList;
 public class Zadanie1 {
     public static void redukuj(LinkedList<String> pracownicy, int n){
         int temp = pracownicy.size();
-        for(int i = 1; i<temp-1; i++){
-            pracownicy.remove(n * i - i);
+        for(int i = n-1; i<temp-1; i += n){
+            pracownicy.remove(i);
         }
     }
 
@@ -17,7 +17,7 @@ public class Zadanie1 {
         ll.add("Pracownik C");
         ll.add("Pracownik D");
         System.out.println(ll);
-        redukuj(ll, 2);
+        redukuj(ll, 3);
         System.out.println(ll);
     }
 }
