@@ -32,7 +32,7 @@ public class Komputer implements Cloneable, Comparable<Komputer>{
 
     @Override
     public int compareTo(Komputer o){
-        if(nazwa.equalsIgnoreCase(o.getNazwa())){
+        if(nazwa.equals(o.getNazwa())){
             return dataProdukcji.compareTo(o.getDataProdukcji());
         }
         return nazwa.compareTo(o.getNazwa());

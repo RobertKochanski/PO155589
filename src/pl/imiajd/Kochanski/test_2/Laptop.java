@@ -2,7 +2,7 @@ package pl.imiajd.Kochanski.test_2;
 
 import java.time.LocalDate;
 
-public class Laptop extends Komputer{
+public class Laptop extends Komputer implements Cloneable, Comparable<Komputer>{
 
     boolean czyApple;
 
@@ -17,10 +17,14 @@ public class Laptop extends Komputer{
 
     @Override
     public int compareTo(Komputer o){
-        if(getNazwa().equalsIgnoreCase(o.getNazwa())){
-            return getDataProdukcji().compareTo(o.getDataProdukcji());
+        int x = super.compareTo(o);
+        Laptop l = (Laptop)o;
+        if(x == 0){
+            if(isCzyApple() == l.isCzyApple()) return 0;
+            if(isCzyApple()) return -1;
+            return 1;
         }
-        return getNazwa().compareTo(o.getNazwa());
+        return x;
     }
 
     @Override
